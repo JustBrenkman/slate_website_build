@@ -1,0 +1,381 @@
+{
+	"version": 24,
+	"artboards": [
+		{
+			"name": "Artboard",
+			"translation": [
+				0,
+				0
+			],
+			"width": 256,
+			"height": 256,
+			"origin": [
+				0,
+				0
+			],
+			"clipContents": true,
+			"color": [
+				0.364705890417099,
+				0.364705890417099,
+				0.364705890417099,
+				1
+			],
+			"nodes": [
+				{
+					"name": "slate-mark",
+					"translation": [
+						109.55661010742188,
+						93.48539733886719
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"type": "node"
+				},
+				{
+					"name": "bottom",
+					"parent": 0,
+					"translation": [
+						6.394641876220703,
+						87.58078002929688
+					],
+					"rotation": -0.4324077665805816,
+					"scale": [
+						1.0022474527359009,
+						1.0022474527359009
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 6,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Rectangle",
+					"parent": 1,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"width": 163.34,
+					"height": 75.66,
+					"cornerRadius": 3.759999990463257,
+					"type": "rectangle"
+				},
+				{
+					"name": "Color",
+					"parent": 1,
+					"opacity": 1,
+					"numColorStops": 2,
+					"colorStops": [
+						0.809999942779541,
+						0.5,
+						1,
+						1,
+						0,
+						0.6869000792503357,
+						0.4950000047683716,
+						1,
+						1,
+						1
+					],
+					"start": [
+						0,
+						-37.83000183105469
+					],
+					"end": [
+						0,
+						37.83000183105469
+					],
+					"fillRule": 1,
+					"type": "gradientFill"
+				},
+				{
+					"name": "top",
+					"parent": 0,
+					"translation": [
+						21.829627990722656,
+						-19.77536392211914
+					],
+					"rotation": -0.4279547333717346,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 7,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Rectangle",
+					"parent": 4,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"width": 163.34,
+					"height": 75.66,
+					"cornerRadius": 3.759999990463257,
+					"type": "rectangle"
+				},
+				{
+					"name": "Color",
+					"parent": 4,
+					"opacity": 1,
+					"numColorStops": 2,
+					"colorStops": [
+						0.809999942779541,
+						0.5,
+						1,
+						1,
+						0,
+						0.6869000792503357,
+						0.4950000047683716,
+						1,
+						1,
+						1
+					],
+					"start": [
+						0,
+						-37.83000183105469
+					],
+					"end": [
+						0,
+						37.83000183105469
+					],
+					"fillRule": 1,
+					"type": "gradientFill"
+				},
+				{
+					"name": "Drop Shadow",
+					"parent": 0,
+					"isActive": true,
+					"blurX": 3,
+					"blurY": 3,
+					"offsetX": 0,
+					"offsetY": 4,
+					"color": [
+						0.26428571343421936,
+						0.26428571343421936,
+						0.26428571343421936,
+						1
+					],
+					"blendMode": 3,
+					"type": "dropShadow"
+				},
+				{
+					"name": "slate-mark Layer",
+					"parent": 0,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 8,
+					"type": "effectRenderer"
+				}
+			],
+			"animations": [
+				{
+					"name": "enter",
+					"fps": 60,
+					"duration": 1,
+					"isLooping": false,
+					"keyed": [
+						{
+							"component": 0,
+							"opacity": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 0
+									},
+									{
+										"time": 0.15,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							]
+						},
+						{
+							"component": 1,
+							"posX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.6989247311827957,
+										"cubicY1": 1.9516129032258065,
+										"cubicX2": 0.5967741935483871,
+										"cubicY2": 0.9905913978494624,
+										"value": -226.1429901123047
+									},
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 6.394641876220703
+									}
+								]
+							],
+							"posY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.6989247311827957,
+										"cubicY1": 1.9516129032258065,
+										"cubicX2": 0.5967741935483871,
+										"cubicY2": 0.9905913978494624,
+										"value": 194.90582275390625
+									},
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 87.58078002929688
+									}
+								]
+							],
+							"scaleX": [
+								[
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 1.0022474527359009
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 1.0022474527359009
+									}
+								]
+							],
+							"rotation": [
+								[
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": -0.4324077665805816
+									}
+								]
+							]
+						},
+						{
+							"component": 4,
+							"posX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.6989247311827957,
+										"cubicY1": 1.9516129032258065,
+										"cubicX2": 0.5967741935483871,
+										"cubicY2": 0.9905913978494624,
+										"value": 234.81011962890625
+									},
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 21.829627990722656
+									}
+								]
+							],
+							"posY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.6989247311827957,
+										"cubicY1": 1.9516129032258065,
+										"cubicX2": 0.5967741935483871,
+										"cubicY2": 0.9905913978494624,
+										"value": -116.92595672607422
+									},
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": -19.77536392211914
+									}
+								]
+							],
+							"scaleX": [
+								[
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"rotation": [
+								[
+									{
+										"time": 0.6666666666666666,
+										"interpolatorType": 1,
+										"value": -0.4279547333717346
+									}
+								]
+							]
+						}
+					],
+					"animationStart": 0,
+					"animationEnd": 0.6666666666666666,
+					"type": "animation"
+				}
+			],
+			"type": "artboard"
+		}
+	]
+}

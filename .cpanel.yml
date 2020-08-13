@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/slateuie/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp main.dart.js $DEPLOYPATH
+    - /bin/cp slate.ico $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R packages $DEPLOYPATH
